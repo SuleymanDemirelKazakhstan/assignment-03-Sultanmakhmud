@@ -1,7 +1,104 @@
 <html>
 <head>
 <style>
-/* Write your code here */
+
+  html {
+    background-image: url(http://backgroundlabs.com/wp-content/uploads/2013/04/subtle-mosaic-pattern.png);
+  }
+
+  body {
+    align-self: center;
+  }
+
+  nav a {
+    display: inline;
+    text-decoration: none;
+    width: 25%;
+    height: 25px;
+    text-align: center;
+    font-size: larger;
+    background-color: gray;
+    color: black;
+  }
+
+  div.logo_part {
+    display: flex;
+    justify-content: space-between;
+	  align-items: center;
+  }
+
+  div.search {
+    margin-right: 15%;
+   }
+
+  .container {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: white;
+  }
+
+  nav a:hover {
+    color: aliceblue;
+    background-color: red;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  a.title {
+    text-align: center;
+    background-color:darkblue;
+    color: white;
+    text-decoration: none;
+  }
+
+  div.price {
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+  }
+
+  div.cards {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5%;
+    margin-right: 0%;
+  }
+
+  div.card img {
+    width: 150px;
+    height: 150px;
+  }
+
+   div.card {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: 190px;
+    margin: 20px;
+    border: 2px solid red;
+  }
+ 
+  footer {
+    background-color: black;
+    color: aliceblue;
+    position: fixed ;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    font-size: 1.2 em;
+    font-family: 'Courier New', Courier, monospace;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    }
+
 </style>
 </head>
 <body>
